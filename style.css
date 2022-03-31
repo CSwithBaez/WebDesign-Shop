@@ -1,0 +1,30 @@
+body {
+    background-color: linen;
+  }
+  
+  h3 {
+    color: maroon;
+    margin-left: 40px;
+  }
+  
+img{
+  width: 150px;
+}
+
+ul{
+  list-style-type: none;
+  width: min-content;
+  background: lightblue;
+  width: 200px;
+  height: 300px;
+ 
+
+}
+  .tc{
+    display: table-cell;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1 px salmon;
+  }
+
+  

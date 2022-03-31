@@ -6,25 +6,23 @@ body {
     color: maroon;
     margin-left: 40px;
   }
-  
-img{
-  width: 150px;
-}
 
-ul{
-  list-style-type: none;
-  width: min-content;
-  background: lightblue;
-  width: 200px;
-  height: 300px;
- 
-
-}
   .tc{
     display: table-cell;
     padding: 10px;
-    text-align: left;
+    text-align: justify;
     border-bottom: 1 px salmon;
   }
 
-  
+  @media(max-width:800px){
+    .tc{
+      display: block;
+    }
+    .tc{
+      width: 100%;
+    }
+    body {
+      background-color: lightblue;
+    }
+  }
+
